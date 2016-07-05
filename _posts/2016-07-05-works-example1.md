@@ -1,7 +1,7 @@
 ---
 priority: 0.6
 title: Project 1
-excerpt: An example of a and b
+excerpt: A brief analysis of SAT Scores
 categories: works
 background-image: complex-data.jpg
 tags:
