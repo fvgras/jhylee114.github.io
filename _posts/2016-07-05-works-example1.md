@@ -3,7 +3,7 @@ priority: 0.6
 title: Project 1
 excerpt: An example of a and b
 categories: works
-background-image: works-sample.png
+background-image: complex-data.jpg
 tags:
   - csv
   - matplotlib
