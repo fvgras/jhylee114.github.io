@@ -1,6 +1,6 @@
 ---
 priority: 0.6
-title: Project X
+title: Project 1
 excerpt: An example of a and b
 categories: works
 background-image: works-sample.png
@@ -12,9 +12,9 @@ tags:
 
 #### Results
 
-- 18% increase in M, measured by N
+-;alksdjflakjs;dlfkja;sfd
 - ...
 
 #### Summary
 
-Project X involved ....
+Project 1 involved ....laksjdf;lakjsdf
