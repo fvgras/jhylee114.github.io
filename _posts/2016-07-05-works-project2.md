@@ -79,6 +79,7 @@ To figure out if a correlation or correlations exist, I would do various t-tests
 
 Further research and analysis should be done to continue this investigation.
 
+Please find my entire work process on Jupyter notebook below:
 
 
 
