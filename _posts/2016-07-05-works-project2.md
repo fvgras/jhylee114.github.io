@@ -5,8 +5,6 @@ excerpt: An exploration of the Billboard's Hot 100 List of 2000
 categories: works
 background-image: workspace.png
 tags:
-  - billboard
-  - music
   - csv
   - pandas
   - matplotlib
@@ -17,6 +15,7 @@ tags:
 
 # Project 2
 ## The Last Step:
+
 ### Summary
 
 I'll begin this project with the end in mind. This project disects the way Billboard celebrates fresh music of the new millenium. The data set provided detailed the artist, tracks, track lengths, debut date, peak date, and the subsequent weekly rankings of the tracks that made it on to Billboard's Hot 100 list of the year 2000.
