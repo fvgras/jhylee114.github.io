@@ -3844,6 +3844,47 @@ Visualize and plot the data, using bar, scatterplots, histograms, heat maps, and
 Summarize the data and draw insight from the findings to determine whether or not I can reject or not reject the null hypothesis that there is no correlation between the three datasets.
 
 ## Step 6:
-#### Summary & Blog Post
+#### Summary
 
-Project Y involved ....
+This project disects the way Billboard celebrates fresh music of the new millenium. The data set provided detailed the artist, tracks, track lengths, debut date, peak date, and the subsequent weekly rankings of the tracks that made it on to Billboard's Hot 100 list of the year 2000.
+
+Divided into 5 sections, this investigation starts with loading, reading, and exploring the dataset from a CSV file on Jupyter notebook. 
+
+1. Exploring the Data
+I did some basic research on what the dataset actually represented and also had a brief glance at the dataset by running the typical screening commands, such as .head(), .tail(), .describe(), .shape, etc, which gave me the following insights as described above:
+
+"The Billboard Hot 100 is the music industry standard record chart in the United States for singles, published weekly by Billboard magazine. Chart rankings are based on radio play, online streaming, and sales (physical and digital)." - Wikipedia
+
+The data corresponds to The Billboard Hot 100 for the year of 2000.
+
+- The dataframe is made up of year, name of artist, debut date, peak date, the subsequent weekly rankings.
+
+- There are 317 rows and 82 columns.
+    
+- The data has a combination of floats, integers, and objects.
+
+- Each track has a corresponding debut and peaked date that is relative to the subsequent weekly ranking columns.
+
+- The number of tracks that remain on the Billboard Hot 100 list decreases as the weeks go on.\
+
+- There are no tracks that remain after the 65th week of being on the billboard list.
+
+- The highest first-week ranking is 15 and the lowest first-week ranking is 100.
+
+- The standard deviation of the weekly rankings decrease as the weeks go on.
+
+2. Cleaning:
+The second step was rudimentary cleaning of the dataset, getting rid of the null values, taking out columns and rows that were unnecessary, and altering the types of values to make further analysis easier.
+
+3. Visualizing:
+
+
+4. Problem Statement:
+I found extra datasets on Billboard's annual end of the year top 100 list of 2000 and also Billboard's annual awards of 2000 online (Billboard), which inspired me to ask the question - Are there any correlations or relationship between the Billboard Hot 100 list, Billboard's end of the year top 100 list, and Billboard's annual awards list of the year 2000? Can these possible relationships also apply to other years' data as well?
+
+5. Brainstorm:
+To figure out if a correlation or correlations exist, I would do various t-tests to compare the data. I would set the null hypothesis to say that there is no correlation between the three charts and the alternative hypothesis to say that there is a correlation or correlations between the three datasets. I would run a t-test to validate the decision on whether or not I can reject or not reject the null hypothesis and draw insights from the results.
+
+Further research and analysis should be done to continue this investigation.
+
+
