@@ -23,7 +23,8 @@ I'll begin this project with the end in mind. This project disects the way Billb
 
 Divided into 5 sections, this investigation starts with loading, reading, and exploring the dataset from a CSV file on Jupyter notebook. 
 
-1. Exploring the Data
+1) Exploring the Data
+
 I did some basic research on what the dataset actually represented and also had a brief glance at the dataset by running the typical screening commands, such as .head(), .tail(), .describe(), .shape, etc, which gave me the following insights as described above:
 
 "The Billboard Hot 100 is the music industry standard record chart in the United States for singles, published weekly by Billboard magazine. Chart rankings are based on radio play, online streaming, and sales (physical and digital)." - Wikipedia
@@ -46,10 +47,14 @@ The data corresponds to The Billboard Hot 100 for the year of 2000.
 
 - The standard deviation of the weekly rankings decrease as the weeks go on.
 
-2. Cleaning:
+2) Cleaning:
+
+
 The second step was rudimentary cleaning of the dataset, getting rid of the null values, taking out columns and rows that were unnecessary, and altering the types of values to make further analysis easier.
 
-3. Visualizing:
+3) Visualizing:
+
+
 Here are a few ways I visualized the data...
 This pie chart shows the distribution of genres within the Billboard Hot 100 List of 2000.
 ![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/output_26_1.png) 
@@ -63,10 +68,13 @@ I generated this visual with Tableau to demonstrate the fluctuation of rankings 
 This graph isolates the 81 tracks that were disqualified due to the rule stated above after their 20th week and the measures are the rank positions they held for their 20th week. The maximum is 100 and the minimum is 28, just short of the requirement.
 ![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/output_30_4.png)
 
-4. Problem Statement:
+4) Problem Statement:
+
 I found extra datasets on Billboard's annual end of the year top 100 list of 2000 and also Billboard's annual awards of 2000 online (Billboard), which inspired me to ask the question - Are there any correlations or relationship between the Billboard Hot 100 list, Billboard's end of the year top 100 list, and Billboard's annual awards list of the year 2000? Can these possible relationships also apply to other years' data as well?
 
-5. Brainstorm:
+5) Brainstorm:
+
+
 To figure out if a correlation or correlations exist, I would do various t-tests to compare the data. I would set the null hypothesis to say that there is no correlation between the three charts and the alternative hypothesis to say that there is a correlation or correlations between the three datasets. I would run a t-test to validate the decision on whether or not I can reject or not reject the null hypothesis and draw insights from the results.
 
 Further research and analysis should be done to continue this investigation.
