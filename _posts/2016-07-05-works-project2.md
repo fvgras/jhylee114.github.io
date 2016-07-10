@@ -3,7 +3,7 @@ priority: 0.7
 title: Project 2
 excerpt: An exploration of the Billboard's Hot 100 List of 2000
 categories: works
-background-image: works-sample.png
+background-image: workspace.png
 tags:
   - billboard
   - music
