@@ -78,6 +78,23 @@ To figure out if a correlation or correlations exist, I would do various t-tests
 
 Further research and analysis should be done to continue this investigation.
 
+Interesting Resources:
+https://www.statista.com/chart/1075/the-digital-music-revolution/
+
+https://www.nextbigsound.com/industry-report/2016
+
+Resources:
+http://www.billboard.com/biz/billboard-charts-legend
+
+http://www.billboard.com/archive/charts/2000/hot-100
+
+http://www.infoplease.com/ipa/A0878624.html
+
+https://en.wikipedia.org/wiki/Billboard_Hot_100
+    
+https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number-one_singles_of_the_2000s
+
+
 Please find my entire work process on Jupyter notebook below:
 
 
