@@ -1,5 +1,5 @@
 ---
-priority: 0.6
+priority: 0.8
 title: Project 3
 excerpt: An Investigation of Iowa Liquor Sales 2015-2016
 categories: works
