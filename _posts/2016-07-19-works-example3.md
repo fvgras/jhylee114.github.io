@@ -127,10 +127,14 @@ Top 10 Prices per Bottle:
 
 I played around with RidgeCV and LassoCV but did not have enough time to fully dissect the information. In addition, I also made a few visualizations through Tableau to get a better understanding of the data.
 
-
-
-
-
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/bottles_sold_across_time.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/bottles_sold_by_county.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/bottles_sold_by_zip.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/bottles_sold_by_bottle_volume.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/price_diff_by_category.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/bottles_sold_by_category.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/sales_by_category.png)
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/_posts/top25_by_bottles_sold.png)
 
 
 
