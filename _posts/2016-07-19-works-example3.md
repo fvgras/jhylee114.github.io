@@ -22,13 +22,116 @@ Goal for Scenario #2: Your task is to:
 - Bonus: Recommend targets for volume sold and price per bottle!
 
 #### Summary & Recommendations
-What are great locations?
-insert images
+To build the models of total sales based on location, price per bottle, and bottles sold, I first defined my feature columns and my y and split them into training and testing sets. The results when including all three variables in my feature columns were as follows:
+Intercept = -105.57
+Coefficients: [('County Number', 0.0081),  ('Price per Bottle', 6.78),  ('Bottles Sold', 13.62)]
+The intercept is less relevant when evaluating the information than the coefficients. I zipped the feature columns with the resulting coefficients, where the lower the coefficient, the less of a correlation between the specific X variable and the y variable. These results demonstrate that the quantity of bottles sold affected sales the most, then price per bottle, then county number.
 
-Evaluate model performace and its ability to predict future sales using cross-validation
-Cross-Validation Methods - ridgecv, lassocv
+	I also found the root mean squared errors to evaluate the model by deriving it from all 3 variables, 2 variables, and also single variables, which gave me this:
 
-Challenges and highlights of project 3.
+RMSE:
+All 3 variables:
+RMSE: 212.11562256 
+
+2 variables:
+Price per bottle and bottles sold RMSE: 212.12
+County number and bottles sold RMSE: 223.71
+Price per bottle and county number RMSE: 357.66
+
+1 variable:
+Bottles sold RMSE: 223.72
+Price per bottle RMSE: 357.70
+County number RMSE: 361.40
+
+	When all 3 variables were included in the feature columns, the RMSE was the lowest, which is a good indicator because we are trying to minimize with a loss function. Then price per bottle and bottles sold led to the second lowest RMSE. County number and bottles sold as well as bottles sold on its own resulted in around the same RMSE value. The rest of the tests gave much higher RMSEs.
+
+I used 10-fold cross-validation with various features to calculate the score of the MSE. The results were very similar to that of calculating the RMSE. 
+
+MSE Scores:
+All 3 variables: 201.87
+
+2 variables:
+Price per bottle and bottles sold: 201.86
+County number and bottles sold: 214.54
+Price per bottle and county number: 377.28
+
+1 variable:
+Bottles sold: 214.54
+Price per bottle: 377.34
+County number: 380.86
+
+I plotted some of the models to visualize clearer and obviously, combing bottles sold and price per bottle against sales as well as bottles sold and sales had strong correlations. 
+
+I built a few pivot tables to make recommendations on the best locations to open a store. Here are the top 10 lists by zip code, city, and county number, and also the bonus two variables of the bottle volume (ml) and the price per bottle. What could have been done better is sorting these results by more specific categories.
+
+Top 10 Zip Codes:
+50314
+50320
+52402
+52240
+50010
+52807
+51501
+50311
+50266
+52722
+
+Top 10 Cities:
+Des Moines
+Cedar Rapids
+Davenport
+Iowa City
+Waterloo
+Sioux City
+Council Bluffs
+West Des Moines
+Ames
+Dubuque
+
+Top 10 County Numbers:
+77
+57
+82
+52
+7
+78
+97
+31
+85
+17
+
+Bonus
+Top 10 Bottle Volumes (ml):
+750
+1750
+1000
+375
+200
+500
+3000
+600
+100
+300
+
+Top 10 Prices per Bottle:
+22.5
+27
+17.63
+13.5
+12.38
+15.74
+14.93
+27.74
+10.76
+10.38
+
+I played around with RidgeCV and LassoCV but did not have enough time to fully dissect the information. In addition, I also made a few visualizations through Tableau to get a better understanding of the data.
+
+
+
+
+
+
 
 
 #### Python Code
