@@ -21,6 +21,18 @@ Goal for Scenario #2: Your task is to:
 - Based on your models and the table of data, recommend some general locations to the business owner, taking into account model performance. Validate your model's performance and ability to predict future sales using cross-validation.
 - Bonus: Recommend targets for volume sold and price per bottle!
 
+#### Summary & Recommendations
+What are great locations?
+insert images
+
+Evaluate model performace and its ability to predict future sales using cross-validation
+Cross-Validation Methods - ridgecv, lassocv
+
+Challenges and highlights of project 3.
+
+
+#### Python Code
+
 #### Basics: Load, Read, Clean
 ```python
 import pandas as pd
@@ -593,8 +605,8 @@ print "MSE:", mean_squared_error(y, predictions)
 
 
 #### Tables of best performing stores by location type (city, county, or zip cope) and the predictions of the model:
-## By Zip Code
 
+## By Zip Code
 
 ```python
 # Table of Best performing stores by location (city, zip, or county number)
@@ -3708,13 +3720,6 @@ sales_county.sort_values(by='Sale (Dollars) sum', ascending=False)
 </div>
 
 
-#### Recommendations
-What are great locations?
-insert images
-
-Evaluate model performace and its ability to predict future sales using cross-validation
-# Cross-Validation Methods
-
 ### For Price per Bottle RidgeCV and LassoCV
 
 
@@ -3960,8 +3965,6 @@ print "MSE:", mean_squared_error(y, predictions)
 
 #### Bonus
 Recommend target volume sold and price per bottle
-
-
 
 ```python
 #sort by bottle volume
@@ -5425,6 +5428,4 @@ sales_bp.sort_values(by='Sale (Dollars) sum', ascending=False)
 </div>
 
 
-#### Summary
 
-Challenges and highlights of project 3.
