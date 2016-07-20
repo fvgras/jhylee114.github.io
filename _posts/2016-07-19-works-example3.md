@@ -30,15 +30,15 @@ The intercept is less relevant when evaluating the information than the coeffici
 
 -I also found the root mean squared errors to evaluate the model by deriving it from all 3 variables, 2 variables, and also single variables, which gave me this:
 
-RMSE:
+##### RMSE:
 - All 3 variables RMSE: 212.11562256 
 
-2 variables:
+###### 2 variables:
 - Price per bottle and bottles sold RMSE: 212.12
 - County number and bottles sold RMSE: 223.71
 - Price per bottle and county number RMSE: 357.66
 
-1 variable:
+###### 1 variable:
 - Bottles sold RMSE: 223.72
 - Price per bottle RMSE: 357.70
 - County number RMSE: 361.40
@@ -47,15 +47,15 @@ RMSE:
 
 - I used 10-fold cross-validation with various features to calculate the score of the MSE. The results were very similar to that of calculating the RMSE. 
 
-MSE Scores:
+##### MSE Scores:
 - All 3 variables: 201.87
 
-2 variables:
+###### 2 variables:
 - Price per bottle and bottles sold: 201.86
 - County number and bottles sold: 214.54
 - Price per bottle and county number: 377.28
 
-1 variable:
+###### 1 variable:
 - Bottles sold: 214.54
 - Price per bottle: 377.34
 - County number: 380.86
@@ -64,7 +64,7 @@ MSE Scores:
 
 - I built a few pivot tables to make recommendations on the best locations to open a store. Here are the top 10 lists by zip code, city, and county number, and also the bonus two variables of the bottle volume (ml) and the price per bottle. What could have been done better is sorting these results by more specific categories.
 
-Top 10 Zip Codes:
+#### Top 10 Zip Codes:
 - 50314
 - 50320
 - 52402
@@ -76,7 +76,7 @@ Top 10 Zip Codes:
 - 50266
 - 52722
 
-Top 10 Cities:
+#### Top 10 Cities:
 - Des Moines
 - Cedar Rapids
 - Davenport
@@ -88,7 +88,7 @@ Top 10 Cities:
 - Ames
 - Dubuque
 
-Top 10 County Numbers:
+#### Top 10 County Numbers:
 - 77
 - 57
 - 82
@@ -101,7 +101,7 @@ Top 10 County Numbers:
 - 17
 
 ##### Bonus
-Top 10 Bottle Volumes (ml):
+####Top 10 Bottle Volumes (ml):
 - 750
 - 1750
 - 1000
@@ -113,7 +113,7 @@ Top 10 Bottle Volumes (ml):
 - 100
 - 300
 
-Top 10 Prices per Bottle:
+#### Top 10 Prices per Bottle:
 - 22.5
 - 27
 - 17.63
