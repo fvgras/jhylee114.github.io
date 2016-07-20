@@ -28,6 +28,18 @@ Intercept = -105.57
 Coefficients: [('County Number', 0.0081),  ('Price per Bottle', 6.78),  ('Bottles Sold', 13.62)]
 The intercept is less relevant when evaluating the information than the coefficients. I zipped the feature columns with the resulting coefficients, where the lower the coefficient, the less of a correlation between the specific X variable and the y variable. These results demonstrate that the quantity of bottles sold affected sales the most, then price per bottle, then county number.
 
+#### Price per Bottle
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/price_per_bottle.png)
+
+#### Bottles Sold
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/bottles_sold.png)
+
+#### County Number
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/county.png)
+
+#### Price per Bottle and Bottles Sold
+![alt tag](https://raw.githubusercontent.com/jhylee114/jhylee114.github.io/master/price_bottles.png)
+
 -I also found the root mean squared errors to evaluate the model by deriving it from all 3 variables, 2 variables, and also single variables, which gave me this:
 
 ##### RMSE:
