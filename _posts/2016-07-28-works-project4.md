@@ -12,7 +12,7 @@ tags:
 ---
 
 
-# Web Scraping for Indeed.com & Predicting Salaries
+## Web Scraping for Indeed.com & Predicting Salaries
 
 In this project, we will practice two major skills: collecting data by scraping a website and then building a binary predictor with Logistic Regression.
 
@@ -25,11 +25,11 @@ Normally, we could use regression for this task; however, we will convert this p
 
 Therefore, the first part of the assignment will be focused on scraping Indeed.com. In the second, we'll focus on using listings with salary information to build a model and predict additional salaries.
 
-# Summary
+## Summary
 
-## Predicting salaries using Logistic Regression
+### Predicting salaries using Logistic Regression
 
-### Load the Data
+#### Load the Data
 
 
 ```python
