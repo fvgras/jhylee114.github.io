@@ -1,6 +1,6 @@
 ---
-priority: 0.6
-title: Project 1
+priority: 0.8
+title: Project 4
 excerpt: A brief analysis of SAT Scores
 categories: works
 background-image: complex-data.jpg
