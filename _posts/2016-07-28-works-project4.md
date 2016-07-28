@@ -1,9 +1,9 @@
 ---
 priority: 0.8
 title: Project 4
-excerpt: A brief analysis of SAT Scores
+excerpt: Web Scraping for Indeed.com & Predicting Salaries
 categories: works
-background-image: complex-data.jpg
+background-image: workspace.jpg
 tags:
   - web scraping
   - logistic regression
